@@ -198,5 +198,33 @@ Build the application by running the command:
 docker-compose up -d
 ```
 
-# Configure Routing
+## Create your nginx.conf file
+```
+location /api {
+    proxy_pass http://fastapi_app:8000;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Proto $scheme;
+}
+
+location /docs {
+    proxy_pass http://fastapi_app:8000;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Proto $scheme;
+}
+
+location /redoc {
+    proxy_pass http://fastapi_app:8000;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Proto $scheme;
+}
+
+```
+## Configure Routing
+
 
