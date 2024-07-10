@@ -18,13 +18,9 @@ services:
       - "8000:8000"
     env_file:
       - ./backend/.env
-    environment:
-      - POSTGRES_USER=sapphire
-      - POSTGRES_PASSWORD=ugochi
-      - POSTGRES_DB=apidb
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.backend.rule=(Host(`backend.sapphireaura.com.ng`)) && (PathPrefix(`/api`) || PathPrefix(`/docs`) || PathPrefix(`/redoc`))"
+      - "traefik.http.routers.backend.rule=(Host(`backend.${DOMAIN}`)) && (PathPrefix(`/api`) || PathPrefix(`/docs`) || PathPrefix(`/redoc`))"
       - "traefik.http.routers.backend.entrypoints=websecure"
       - "traefik.http.routers.backend.tls=true"
       - "traefik.http.routers.backend.tls.certresolver=myresolver"
@@ -47,7 +43,7 @@ services:
       - ./frontend/.env
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.frontend.rule=Host(`sapphireaura.com.ng`) || Host(`www.sapphireaura.com.ng`) && PathPrefix(`/`)"
+      - "traefik.http.routers.frontend.rule=Host(`${DOMAIN}`) || Host(`www.${DOMAIN}`) && PathPrefix(`/`)"
       - "traefik.http.routers.frontend.entrypoints=websecure"
       - "traefik.http.routers.frontend.tls=true"
       - "traefik.http.routers.frontend.tls.certresolver=myresolver"
@@ -56,7 +52,7 @@ services:
       - "traefik.http.routers.frontend-local.entrypoints=web"
       - "traefik.http.services.frontend.loadbalancer.server.port=5173"
       - "traefik.http.middlewares.api-proxy.forwardauth.address=http://frontend:5173/api-proxy"
-      - "traefik.http.routers.frontend-http.rule=Host(`sapphireaura.com.ng`) || Host(`www.sapphireaura.com.ng`) && PathPrefix(`/`)"
+      - "traefik.http.routers.frontend-http.rule=Host(`${DOMAIN}`) || Host(`www.${DOMAIN}`) && PathPrefix(`/`)"
       - "traefik.http.routers.frontend-http.entrypoints=web"
       - "traefik.http.routers.frontend-http.middlewares=https-redirect@docker"
     depends_on:
@@ -70,11 +66,11 @@ services:
     container_name: DB-manager
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.adminer-domain.rule=Host(`db.sapphireaura.com.ng`) && PathPrefix(`/adminer`)"
+      - "traefik.http.routers.adminer-domain.rule=Host(`db.${DOMAIN}`) && PathPrefix(`/adminer`)"
       - "traefik.http.routers.adminer-domain.entrypoints=websecure"
       - "traefik.http.routers.adminer-domain.tls=true"
       - "traefik.http.routers.adminer-domain.tls.certresolver=myresolver"
-      - "traefik.http.routers.adminer-domain-http.rule=Host(`db.sapphireaura.com.ng`) && PathPrefix(`/adminer`)"
+      - "traefik.http.routers.adminer-domain-http.rule=Host(`db.${DOMAIN}`) && PathPrefix(`/adminer`)"
       - "traefik.http.routers.adminer-domain-http.entrypoints=web"
       - "traefik.http.routers.adminer-domain-http.middlewares=https-redirect@docker"
       - "traefik.http.routers.adminer-local.rule=Host(`db.localhost`) && PathPrefix(`/adminer`)"
@@ -100,7 +96,7 @@ services:
       - "--entrypoints.traefik.address=:8090"
       - "--certificatesresolvers.myresolver.acme.httpchallenge=true"
       - "--certificatesresolvers.myresolver.acme.httpchallenge.entrypoint=web"
-      - "--certificatesresolvers.myresolver.acme.email=ugochiukaegbu17@gmail.com"
+      - "--certificatesresolvers.myresolver.acme.email=${ACME_EMAIL}"
       - "--certificatesresolvers.myresolver.acme.storage=/letsencrypt/acme.json"
     ports:
       - "80:80"
@@ -111,15 +107,15 @@ services:
       - ./letsencrypt:/letsencrypt
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.traefik-domain.rule=Host(`traefik.sapphireaura.com.ng}`)"
+      - "traefik.http.routers.traefik-domain.rule=Host(`traefik.${DOMAIN}`)"
       - "traefik.http.routers.traefik-domain.service=api@internal"
       - "traefik.http.routers.traefik-domain.entrypoints=web"
-      - "traefik.http.routers.traefik-domain-secure.rule=Host(`traefik.sapphireaura.com.ng`)"
+      - "traefik.http.routers.traefik-domain-secure.rule=Host(`traefik.${DOMAIN}`)"
       - "traefik.http.routers.traefik-domain-secure.entrypoints=websecure"
       - "traefik.http.routers.traefik-domain-secure.tls=true"
       - "traefik.http.routers.traefik-domain-secure.tls.certresolver=myresolver"
       - "traefik.http.routers.traefik-domain-secure.service=api@internal"
-      - "traefik.http.routers.traefik-dashboard.rule=Host(`traefik.sapphireaura.com.ng`) && PathPrefix(`/dashboard`)"
+      - "traefik.http.routers.traefik-dashboard.rule=Host(`traefik.${DOMAIN}`) && PathPrefix(`/dashboard`)"
       - "traefik.http.routers.traefik-dashboard.entrypoints=traefik"
       - "traefik.http.routers.traefik-dashboard.service=api@internal"
       - "traefik.http.routers.traefik-local.rule=Host(`proxy.localhost`)"
