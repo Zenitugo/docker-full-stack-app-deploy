@@ -1,0 +1,344 @@
+2024/07/10 08:14:24 [error] 177#177: *1 open() "/var/www/html/api" failed (2: No such file or directory), client: 197.211.58.130, server: localhost-nginx-proxy-manager, request: "GET /api HTTP/1.1", host: "34.207.147.191"
+2024/07/10 08:14:25 [warn] 177#177: 512 worker_connections are not enough, reusing connections
+2024/07/10 08:14:25 [alert] 177#177: 512 worker_connections are not enough
+2024/07/10 08:14:25 [error] 178#178: *926 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "34.207.147.191", referrer: "http://34.207.147.191/api"
+2024/07/10 08:14:36 [error] 177#177: *1 open() "/var/www/html/docs" failed (2: No such file or directory), client: 197.211.58.130, server: localhost-nginx-proxy-manager, request: "GET /docs HTTP/1.1", host: "34.207.147.191"
+2024/07/10 09:07:01 [warn] 153#153: server name "sapphire.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:20
+2024/07/10 09:07:57 [warn] 153#153: server name "sapphire.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:20
+2024/07/10 09:07:57 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:20
+2024/07/10 09:08:27 [warn] 153#153: server name "sapphire.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:20
+2024/07/10 09:08:27 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:20
+2024/07/10 09:08:27 [warn] 153#153: server name "sapphire.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:20
+2024/07/10 09:08:53 [warn] 153#153: server name "sapphire.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:20
+2024/07/10 09:08:53 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:20
+2024/07/10 09:08:53 [warn] 153#153: server name "sapphire.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:20
+2024/07/10 09:08:53 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:20
+2024/07/10 09:12:26 [warn] 153#153: server name "sapphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:20
+2024/07/10 09:12:26 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:20
+2024/07/10 09:12:26 [warn] 153#153: server name "sapphire.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:20
+2024/07/10 09:12:26 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:20
+2024/07/10 09:13:23 [warn] 153#153: server name "sapphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:20
+2024/07/10 09:13:23 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:20
+2024/07/10 09:13:23 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:20
+2024/07/10 09:13:23 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:20
+2024/07/10 09:14:16 [warn] 153#153: server name "sapphireaura.com.ng/adminer" has suspicious symbols in /data/nginx/proxy_host/1.conf:20
+2024/07/10 09:14:16 [warn] 153#153: server name "sapphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:20
+2024/07/10 09:14:16 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:20
+2024/07/10 09:14:16 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:20
+2024/07/10 09:14:16 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:20
+2024/07/10 09:15:40 [warn] 153#153: server name "sapphireaura.com.ng/adminer" has suspicious symbols in /data/nginx/proxy_host/1.conf:20
+2024/07/10 09:15:40 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:20
+2024/07/10 09:15:40 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:20
+2024/07/10 09:15:40 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:20
+2024/07/10 09:15:40 [warn] 153#153: server name "sapphireaura.com.ng/" has suspicious symbols in /data/nginx/temp/letsencrypt_1.conf:10
+2024/07/10 09:15:47 [warn] 153#153: server name "sapphireaura.com.ng/adminer" has suspicious symbols in /data/nginx/proxy_host/1.conf:20
+2024/07/10 09:15:47 [warn] 153#153: server name "sapphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:20
+2024/07/10 09:15:47 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:20
+2024/07/10 09:15:47 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:20
+2024/07/10 09:15:47 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:20
+2024/07/10 09:20:03 [warn] 153#153: server name "sapphireaura.com.ng/adminer" has suspicious symbols in /data/nginx/proxy_host/1.conf:20
+2024/07/10 09:20:03 [warn] 153#153: server name "sapphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:20
+2024/07/10 09:20:03 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:20
+2024/07/10 09:20:03 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:20
+2024/07/10 09:20:03 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:20
+2024/07/10 09:20:16 [warn] 153#153: server name "sapphireaura.com.ng/adminer" has suspicious symbols in /data/nginx/proxy_host/1.conf:20
+2024/07/10 09:20:16 [warn] 153#153: server name "sapphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:20
+2024/07/10 09:20:16 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:20
+2024/07/10 09:20:16 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:20
+2024/07/10 09:20:16 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:20
+2024/07/10 09:20:34 [warn] 153#153: server name "sapphireaura.com.ng/adminer" has suspicious symbols in /data/nginx/proxy_host/1.conf:20
+2024/07/10 09:20:34 [warn] 153#153: server name "sapphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 09:20:34 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:20
+2024/07/10 09:20:34 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:20
+2024/07/10 09:20:34 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:20
+2024/07/10 09:20:46 [warn] 153#153: server name "sapphireaura.com.ng/adminer" has suspicious symbols in /data/nginx/proxy_host/1.conf:23
+2024/07/10 09:20:46 [warn] 153#153: server name "sapphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 09:20:46 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:20
+2024/07/10 09:20:46 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:20
+2024/07/10 09:20:46 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:20
+2024/07/10 09:20:56 [warn] 153#153: server name "sapphireaura.com.ng/adminer" has suspicious symbols in /data/nginx/proxy_host/1.conf:23
+2024/07/10 09:20:56 [warn] 153#153: server name "sapphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 09:20:56 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:20
+2024/07/10 09:20:56 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:20
+2024/07/10 09:20:56 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 09:21:07 [warn] 153#153: server name "sapphireaura.com.ng/adminer" has suspicious symbols in /data/nginx/proxy_host/1.conf:23
+2024/07/10 09:21:07 [warn] 153#153: server name "sapphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 09:21:07 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 09:21:07 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:20
+2024/07/10 09:21:07 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 09:21:20 [warn] 153#153: server name "sapphireaura.com.ng/adminer" has suspicious symbols in /data/nginx/proxy_host/1.conf:23
+2024/07/10 09:21:20 [warn] 153#153: server name "sapphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 09:21:20 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 09:21:20 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 09:21:20 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 09:27:14 [warn] 153#153: server name "sapphireaura.com.ng/adminer" has suspicious symbols in /data/nginx/proxy_host/1.conf:23
+2024/07/10 09:27:14 [warn] 153#153: server name "sapphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 09:27:14 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 09:27:14 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 09:27:14 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 09:27:51 [warn] 153#153: server name "sapphireaura.com.ng/adminer" has suspicious symbols in /data/nginx/proxy_host/1.conf:23
+2024/07/10 09:27:51 [warn] 153#153: server name "www.sapphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 09:27:51 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 09:27:51 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 09:27:51 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 09:37:23 [error] 404#404: *471 open() "/var/www/html/boaform/admin/formLogin" failed (2: No such file or directory), client: 117.207.76.137, server: localhost-nginx-proxy-manager, request: "GET /boaform/admin/formLogin?username=ec8&psd=ec8 HTTP/1.0"
+2024/07/10 09:52:06 [warn] 153#153: server name "sapphireaura.com.ng/adminer" has suspicious symbols in /data/nginx/proxy_host/1.conf:23
+2024/07/10 09:52:06 [warn] 153#153: server name "saphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 09:52:06 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 09:52:06 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 09:52:06 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 10:34:38 [warn] 153#153: server name "sapphireaura.com.ng/adminer" has suspicious symbols in /data/nginx/proxy_host/1.conf:23
+2024/07/10 10:34:38 [warn] 153#153: server name "saphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 10:34:38 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 10:34:38 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 10:34:38 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 10:37:04 [error] 426#426: *776 open() "/var/www/html/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:37:07 [error] 426#426: *778 open() "/var/www/html/.DS_Store" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /.DS_Store HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:37:09 [error] 426#426: *779 open() "/var/www/html/.env" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:37:10 [error] 426#426: *780 open() "/var/www/html/.env" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "POST /.env HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:37:12 [error] 426#426: *781 open() "/var/www/html/.env.prod" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /.env.prod HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:37:13 [error] 426#426: *782 open() "/var/www/html/.env.prod" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "POST /.env.prod HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:37:14 [error] 426#426: *783 open() "/var/www/html/.env.production" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /.env.production HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:37:15 [error] 426#426: *784 open() "/var/www/html/.env.production" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "POST /.env.production HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:37:16 [error] 426#426: *785 open() "/var/www/html/redmine/.env" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /redmine/.env HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:37:18 [error] 426#426: *786 open() "/var/www/html/redmine/.env" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "POST /redmine/.env HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:37:19 [error] 426#426: *789 open() "/var/www/html/__tests__/test-become/.env" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /__tests__/test-become/.env HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:37:20 [error] 426#426: *790 open() "/var/www/html/__tests__/test-become/.env" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "POST /__tests__/test-become/.env HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:37:54 [error] 426#426: *795 open() "/var/www/html/debug/default/view" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /debug/default/view?panel=config HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:37:54 [error] 426#426: *796 open() "/var/www/html/debug/default/view.html" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /debug/default/view.html HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:37:56 [error] 426#426: *797 open() "/var/www/html/debug/default/view" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /debug/default/view HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:37:57 [error] 426#426: *798 open() "/var/www/html/frontend/web/debug/default/view" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /frontend/web/debug/default/view HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:37:58 [error] 426#426: *799 open() "/var/www/html/web/debug/default/view" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /web/debug/default/view HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:38:00 [error] 426#426: *800 open() "/var/www/html/sapi/debug/default/view" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /sapi/debug/default/view HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:38:15 [error] 426#426: *801 open() "/var/www/html/config.json" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /config.json HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:38:17 [error] 426#426: *802 open() "/var/www/html/AwsConfig.json" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /AwsConfig.json HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:38:19 [error] 426#426: *803 open() "/var/www/html/awsconfig.json" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /awsconfig.json HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:38:20 [error] 426#426: *806 open() "/var/www/html/aws.json" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /aws.json HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:38:22 [error] 426#426: *807 open() "/var/www/html/conf.json" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /conf.json HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:38:24 [error] 426#426: *808 open() "/var/www/html/env.json" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /env.json HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:38:25 [error] 426#426: *810 open() "/var/www/html/.vscode/sftp.json" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /.vscode/sftp.json HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:38:27 [error] 426#426: *811 open() "/var/www/html/.json" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /.json HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:38:29 [error] 426#426: *812 open() "/var/www/html/smtp.json" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /smtp.json HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:38:30 [error] 426#426: *813 open() "/var/www/html/db.json" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /db.json HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:38:32 [error] 426#426: *814 open() "/var/www/html/sendgrid.json" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /sendgrid.json HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:38:33 [error] 426#426: *815 open() "/var/www/html/ws-config.json" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /ws-config.json HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:38:34 [error] 426#426: *816 open() "/var/www/html/_wpeprivate/config.json" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /_wpeprivate/config.json HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:38:35 [error] 426#426: *817 open() "/var/www/html/deployment-config.json" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /deployment-config.json HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:38:37 [error] 426#426: *818 open() "/var/www/html/sftp-config.json" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /sftp-config.json HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:38:39 [error] 426#426: *819 open() "/var/www/html/db/robomongo.json" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /db/robomongo.json HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:38:40 [error] 426#426: *820 open() "/var/www/html/robomongo.json" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /robomongo.json HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:38:41 [error] 426#426: *821 open() "/var/www/html/client_secrets.json" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /client_secrets.json HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:38:42 [error] 426#426: *822 open() "/var/www/html/user-config.json" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /user-config.json HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:38:43 [error] 426#426: *823 open() "/var/www/html/ssh-config.json" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /ssh-config.json HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:38:44 [error] 426#426: *824 open() "/var/www/html/database-config.json" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /database-config.json HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:38:45 [error] 426#426: *825 open() "/var/www/html/config/default.json" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /config/default.json HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:38:46 [error] 426#426: *826 open() "/var/www/html/config/config.json" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /config/config.json HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:38:48 [error] 426#426: *827 open() "/var/www/html/credentials/config.json" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /credentials/config.json HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:39:03 [error] 426#426: *831 open() "/var/www/html/app_dev.php/_profiler/open" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /app_dev.php/_profiler/open?file=app/config/parameters.yml HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:39:05 [error] 426#426: *832 open() "/var/www/html/_profiler/open" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /_profiler/open?file=app/config/parameters.yml HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:39:06 [error] 426#426: *833 open() "/var/www/html/app/config/parameters.yml" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /app/config/parameters.yml HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:39:07 [error] 426#426: *834 open() "/var/www/html/config/parameters.yml" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /config/parameters.yml HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:39:09 [error] 426#426: *835 open() "/var/www/html/parameters.yml" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /parameters.yml HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:39:24 [error] 426#426: *838 open() "/var/www/html/_profiler/phpinfo" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /_profiler/phpinfo HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:39:26 [error] 426#426: *839 open() "/var/www/html/app_dev.php/_profiler/phpinfo" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /app_dev.php/_profiler/phpinfo HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:39:27 [error] 426#426: *840 open() "/var/www/html/phpinfo.php" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /phpinfo.php HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:39:29 [error] 426#426: *841 open() "/var/www/html/owncloud/apps/graphapi/vendor/microsoft/microsoft-graph/tests/GetPhpInfo.php" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /owncloud/apps/graphapi/vendor/microsoft/microsoft-graph/tests/GetPhpInfo.php HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:39:30 [error] 426#426: *842 open() "/var/www/html/info.php" failed (2: No such file or directory), client: 5.252.54.39, server: localhost-nginx-proxy-manager, request: "GET /info.php HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:39:46 [warn] 153#153: server name "sapphireaura.com.ng/adminer" has suspicious symbols in /data/nginx/proxy_host/1.conf:23
+2024/07/10 10:39:46 [warn] 153#153: server name "saphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 10:39:46 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 10:39:46 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 10:39:46 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 10:40:05 [warn] 153#153: server name "sapphireaura.com.ng/adminer" has suspicious symbols in /data/nginx/proxy_host/1.conf:23
+2024/07/10 10:40:05 [warn] 153#153: server name "saphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 10:40:05 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 10:40:05 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 10:40:05 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 10:42:30 [warn] 153#153: server name "sapphireaura.com.ng/adminer" has suspicious symbols in /data/nginx/proxy_host/1.conf:23
+2024/07/10 10:42:30 [warn] 153#153: server name "sapphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 10:42:30 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 10:42:30 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 10:42:30 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 10:45:09 [error] 459#459: *888 open() "/var/www/html/adminer" failed (2: No such file or directory), client: 197.211.58.130, server: localhost-nginx-proxy-manager, request: "GET /adminer HTTP/1.1", host: "34.207.147.191"
+2024/07/10 10:45:10 [warn] 459#459: 512 worker_connections are not enough, reusing connections
+2024/07/10 10:45:10 [alert] 459#459: 512 worker_connections are not enough
+2024/07/10 10:45:10 [error] 460#460: *1809 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "34.207.147.191", referrer: "http://34.207.147.191/adminer"
+2024/07/10 10:49:45 [warn] 153#153: server name "sapphireaura.com.ng/adminer" has suspicious symbols in /data/nginx/proxy_host/1.conf:23
+2024/07/10 10:49:45 [warn] 153#153: server name "www.sapphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 10:49:45 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 10:49:45 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 10:49:45 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 11:35:55 [warn] 470#470: 512 worker_connections are not enough, reusing connections
+2024/07/10 11:35:55 [alert] 470#470: 512 worker_connections are not enough
+2024/07/10 11:35:55 [error] 471#471: *2945 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "proxy.sapphire.chickenkiller.com", referrer: "http://proxy.sapphire.chickenkiller.com/"
+2024/07/10 11:40:48 [warn] 153#153: server name "sapphireaura.com.ng/adminer" has suspicious symbols in /data/nginx/proxy_host/1.conf:23
+2024/07/10 11:40:48 [warn] 153#153: server name "www.sapphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 11:40:48 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 11:40:48 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 11:40:48 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 11:40:54 [warn] 153#153: server name "sapphireaura.com.ng/adminer" has suspicious symbols in /data/nginx/proxy_host/1.conf:23
+2024/07/10 11:40:54 [warn] 153#153: server name "www.sapphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 11:40:54 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 11:40:54 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 11:40:54 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 11:41:54 [warn] 153#153: server name "sapphireaura.com.ng/adminer" has suspicious symbols in /data/nginx/proxy_host/1.conf:23
+2024/07/10 11:41:54 [warn] 153#153: server name "www.sapphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 11:41:54 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 11:41:54 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 11:41:54 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 11:42:00 [warn] 153#153: server name "sapphireaura.com.ng/adminer" has suspicious symbols in /data/nginx/proxy_host/1.conf:23
+2024/07/10 11:42:00 [warn] 153#153: server name "www.sapphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 11:42:00 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 11:42:00 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 11:42:00 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 11:44:30 [warn] 153#153: server name "www.sapphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 11:44:30 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 11:44:30 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 11:44:30 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 11:53:42 [warn] 153#153: server name "www.sapphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 11:53:42 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 11:53:42 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 11:53:42 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 11:53:51 [warn] 153#153: server name "www.sapphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 11:53:51 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 11:53:51 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 11:53:51 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 11:54:02 [error] 533#533: *3206 open() "/var/www/html/server" failed (2: No such file or directory), client: 159.89.174.87, server: localhost-nginx-proxy-manager, request: "GET /server HTTP/1.1", host: "sapphireaura.twilightparadox.com"
+2024/07/10 11:54:02 [error] 533#533: *3208 open() "/var/www/html/.vscode/sftp.json" failed (2: No such file or directory), client: 159.89.174.87, server: localhost-nginx-proxy-manager, request: "GET /.vscode/sftp.json HTTP/1.1", host: "sapphireaura.twilightparadox.com"
+2024/07/10 11:54:03 [error] 533#533: *3211 open() "/var/www/html/about" failed (2: No such file or directory), client: 159.89.174.87, server: localhost-nginx-proxy-manager, request: "GET /about HTTP/1.1", host: "sapphireaura.twilightparadox.com"
+2024/07/10 11:54:03 [error] 533#533: *3216 open() "/var/www/html/debug/default/view" failed (2: No such file or directory), client: 159.89.174.87, server: localhost-nginx-proxy-manager, request: "GET /debug/default/view?panel=config HTTP/1.1", host: "sapphireaura.twilightparadox.com"
+2024/07/10 11:54:04 [error] 533#533: *3218 open() "/var/www/html/v2/_catalog" failed (2: No such file or directory), client: 159.89.174.87, server: localhost-nginx-proxy-manager, request: "GET /v2/_catalog HTTP/1.1", host: "sapphireaura.twilightparadox.com"
+2024/07/10 11:54:04 [error] 533#533: *3220 open() "/var/www/html/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application" failed (2: No such file or directory), client: 159.89.174.87, server: localhost-nginx-proxy-manager, request: "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1", host: "sapphireaura.twilightparadox.com"
+2024/07/10 11:54:05 [error] 533#533: *3222 open() "/var/www/html/server-status" failed (2: No such file or directory), client: 159.89.174.87, server: localhost-nginx-proxy-manager, request: "GET /server-status HTTP/1.1", host: "sapphireaura.twilightparadox.com"
+2024/07/10 11:54:05 [error] 533#533: *3224 open() "/var/www/html/login.action" failed (2: No such file or directory), client: 159.89.174.87, server: localhost-nginx-proxy-manager, request: "GET /login.action HTTP/1.1", host: "sapphireaura.twilightparadox.com"
+2024/07/10 11:54:06 [error] 533#533: *3226 open() "/var/www/html/_all_dbs" failed (2: No such file or directory), client: 159.89.174.87, server: localhost-nginx-proxy-manager, request: "GET /_all_dbs HTTP/1.1", host: "sapphireaura.twilightparadox.com"
+2024/07/10 11:54:06 [error] 533#533: *3228 open() "/var/www/html/.DS_Store" failed (2: No such file or directory), client: 159.89.174.87, server: localhost-nginx-proxy-manager, request: "GET /.DS_Store HTTP/1.1", host: "sapphireaura.twilightparadox.com"
+2024/07/10 11:54:07 [error] 533#533: *3230 open() "/var/www/html/.env" failed (2: No such file or directory), client: 159.89.174.87, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "sapphireaura.twilightparadox.com"
+2024/07/10 11:54:07 [error] 533#533: *3232 open() "/var/www/html/.git/config" failed (2: No such file or directory), client: 159.89.174.87, server: localhost-nginx-proxy-manager, request: "GET /.git/config HTTP/1.1", host: "sapphireaura.twilightparadox.com"
+2024/07/10 11:54:08 [error] 533#533: *3234 open() "/var/www/html/s/139313e2734313e2730323e24333/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties" failed (2: No such file or directory), client: 159.89.174.87, server: localhost-nginx-proxy-manager, request: "GET /s/139313e2734313e2730323e24333/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1", host: "sapphireaura.twilightparadox.com"
+2024/07/10 11:54:08 [error] 533#533: *3236 open() "/var/www/html/config.json" failed (2: No such file or directory), client: 159.89.174.87, server: localhost-nginx-proxy-manager, request: "GET /config.json HTTP/1.1", host: "sapphireaura.twilightparadox.com"
+2024/07/10 11:54:09 [error] 533#533: *3238 open() "/var/www/html/telescope/requests" failed (2: No such file or directory), client: 159.89.174.87, server: localhost-nginx-proxy-manager, request: "GET /telescope/requests HTTP/1.1", host: "sapphireaura.twilightparadox.com"
+2024/07/10 11:54:28 [alert] 533#533: 512 worker_connections are not enough
+2024/07/10 11:54:28 [error] 534#534: *4196 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "sapphireaura.twilightparadox.com"
+2024/07/10 11:54:28 [error] 533#533: *4198 open() "/var/www/html/ads.txt" failed (2: No such file or directory), client: 51.159.14.99, server: localhost-nginx-proxy-manager, request: "GET /ads.txt HTTP/1.1", host: "sapphireaura.twilightparadox.com"
+2024/07/10 11:54:29 [error] 533#533: *4199 open() "/var/www/html/app-ads.txt" failed (2: No such file or directory), client: 51.159.14.99, server: localhost-nginx-proxy-manager, request: "GET /app-ads.txt HTTP/1.1", host: "sapphireaura.twilightparadox.com"
+2024/07/10 11:54:29 [error] 533#533: *4200 open() "/var/www/html/sellers.json" failed (2: No such file or directory), client: 51.159.14.99, server: localhost-nginx-proxy-manager, request: "GET /sellers.json HTTP/1.1", host: "sapphireaura.twilightparadox.com"
+2024/07/10 11:54:32 [error] 533#533: *4202 open() "/var/www/html/.git/config" failed (2: No such file or directory), client: 185.196.9.227, server: localhost-nginx-proxy-manager, request: "GET /.git/config HTTP/1.1", host: "sapphireaura.twilightparadox.com"
+2024/07/10 11:55:54 [warn] 153#153: server name "www.sapphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 11:55:54 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 11:55:54 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 11:55:54 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 11:56:34 [warn] 153#153: server name "www.sapphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 11:56:34 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 11:56:34 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 11:56:34 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 11:56:50 [warn] 153#153: server name "www.sapphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 11:56:50 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 11:56:50 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 11:56:50 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 11:57:19 [warn] 153#153: server name "www.sapphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 11:57:19 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 11:57:19 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 11:57:19 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 11:57:32 [warn] 153#153: server name "www.sapphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 11:57:32 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 11:57:32 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 11:57:32 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 11:57:57 [warn] 153#153: server name "www.sapphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 11:57:57 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 11:57:57 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 11:57:57 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 11:58:38 [error] 601#601: *4486 open() "/var/www/html/server" failed (2: No such file or directory), client: 23.239.4.252, server: localhost-nginx-proxy-manager, request: "GET /server HTTP/1.1", host: "proxy.sapphire.twilightparadox.com"
+2024/07/10 11:58:39 [error] 601#601: *4487 open() "/var/www/html/.vscode/sftp.json" failed (2: No such file or directory), client: 23.239.4.252, server: localhost-nginx-proxy-manager, request: "GET /.vscode/sftp.json HTTP/1.1", host: "proxy.sapphire.twilightparadox.com"
+2024/07/10 11:58:39 [error] 601#601: *4488 open() "/var/www/html/about" failed (2: No such file or directory), client: 23.239.4.252, server: localhost-nginx-proxy-manager, request: "GET /about HTTP/1.1", host: "proxy.sapphire.twilightparadox.com"
+2024/07/10 11:58:39 [error] 601#601: *4490 open() "/var/www/html/debug/default/view" failed (2: No such file or directory), client: 23.239.4.252, server: localhost-nginx-proxy-manager, request: "GET /debug/default/view?panel=config HTTP/1.1", host: "proxy.sapphire.twilightparadox.com"
+2024/07/10 11:58:39 [error] 601#601: *4492 open() "/var/www/html/v2/_catalog" failed (2: No such file or directory), client: 23.239.4.252, server: localhost-nginx-proxy-manager, request: "GET /v2/_catalog HTTP/1.1", host: "proxy.sapphire.twilightparadox.com"
+2024/07/10 11:58:39 [error] 601#601: *4494 open() "/var/www/html/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application" failed (2: No such file or directory), client: 23.239.4.252, server: localhost-nginx-proxy-manager, request: "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1", host: "proxy.sapphire.twilightparadox.com"
+2024/07/10 11:58:39 [error] 601#601: *4495 open() "/var/www/html/server-status" failed (2: No such file or directory), client: 23.239.4.252, server: localhost-nginx-proxy-manager, request: "GET /server-status HTTP/1.1", host: "proxy.sapphire.twilightparadox.com"
+2024/07/10 11:58:39 [error] 601#601: *4497 open() "/var/www/html/login.action" failed (2: No such file or directory), client: 23.239.4.252, server: localhost-nginx-proxy-manager, request: "GET /login.action HTTP/1.1", host: "proxy.sapphire.twilightparadox.com"
+2024/07/10 11:58:39 [error] 601#601: *4499 open() "/var/www/html/_all_dbs" failed (2: No such file or directory), client: 23.239.4.252, server: localhost-nginx-proxy-manager, request: "GET /_all_dbs HTTP/1.1", host: "proxy.sapphire.twilightparadox.com"
+2024/07/10 11:58:40 [error] 601#601: *4500 open() "/var/www/html/.DS_Store" failed (2: No such file or directory), client: 23.239.4.252, server: localhost-nginx-proxy-manager, request: "GET /.DS_Store HTTP/1.1", host: "proxy.sapphire.twilightparadox.com"
+2024/07/10 11:58:40 [error] 601#601: *4503 open() "/var/www/html/.env" failed (2: No such file or directory), client: 23.239.4.252, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "proxy.sapphire.twilightparadox.com"
+2024/07/10 11:58:40 [error] 601#601: *4505 open() "/var/www/html/.git/config" failed (2: No such file or directory), client: 23.239.4.252, server: localhost-nginx-proxy-manager, request: "GET /.git/config HTTP/1.1", host: "proxy.sapphire.twilightparadox.com"
+2024/07/10 11:58:40 [error] 601#601: *4507 open() "/var/www/html/s/139313e2734313e2730323e24333/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties" failed (2: No such file or directory), client: 23.239.4.252, server: localhost-nginx-proxy-manager, request: "GET /s/139313e2734313e2730323e24333/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1", host: "proxy.sapphire.twilightparadox.com"
+2024/07/10 11:58:40 [error] 601#601: *4508 open() "/var/www/html/config.json" failed (2: No such file or directory), client: 23.239.4.252, server: localhost-nginx-proxy-manager, request: "GET /config.json HTTP/1.1", host: "proxy.sapphire.twilightparadox.com"
+2024/07/10 11:58:40 [error] 601#601: *4510 open() "/var/www/html/telescope/requests" failed (2: No such file or directory), client: 23.239.4.252, server: localhost-nginx-proxy-manager, request: "GET /telescope/requests HTTP/1.1", host: "proxy.sapphire.twilightparadox.com"
+2024/07/10 11:58:52 [error] 601#601: *4521 open() "/var/www/html/.git/config" failed (2: No such file or directory), client: 185.196.9.227, server: localhost-nginx-proxy-manager, request: "GET /.git/config HTTP/1.1", host: "proxy.sapphire.twilightparadox.com"
+2024/07/10 12:00:24 [warn] 601#601: 512 worker_connections are not enough, reusing connections
+2024/07/10 12:00:24 [alert] 601#601: *5462 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "proxy.sapphire.twilightparadox.com"
+2024/07/10 12:00:25 [error] 601#601: *5463 open() "/var/www/html/ads.txt" failed (2: No such file or directory), client: 51.159.111.112, server: localhost-nginx-proxy-manager, request: "GET /ads.txt HTTP/1.1", host: "proxy.sapphire.twilightparadox.com"
+2024/07/10 12:00:26 [error] 601#601: *5464 open() "/var/www/html/app-ads.txt" failed (2: No such file or directory), client: 51.159.111.112, server: localhost-nginx-proxy-manager, request: "GET /app-ads.txt HTTP/1.1", host: "proxy.sapphire.twilightparadox.com"
+2024/07/10 12:00:26 [error] 601#601: *5465 open() "/var/www/html/sellers.json" failed (2: No such file or directory), client: 51.159.111.112, server: localhost-nginx-proxy-manager, request: "GET /sellers.json HTTP/1.1", host: "proxy.sapphire.twilightparadox.com"
+2024/07/10 12:01:16 [warn] 153#153: server name "www.sapphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 12:01:16 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 12:01:16 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 12:01:16 [warn] 153#153: server name "sapphireaura.com.ng/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 12:10:01 [warn] 153#153: server name "www.sapphireaura.com.ng/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 12:10:01 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 12:10:01 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 12:11:42 [warn] 153#153: server name "sapphireaura.twilightparadox.com/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 12:11:42 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 12:11:42 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 12:13:22 [warn] 153#153: server name "sapphireaura.twilightparadox.com/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 12:13:22 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 12:13:22 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 12:13:22 [warn] 153#153: server name "sapphireaura.twilightparadox.com/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 12:13:39 [warn] 153#153: server name "sapphireaura.twilightparadox.com/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 12:13:39 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 12:13:39 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 12:13:39 [warn] 153#153: server name "sapphireaura.twilightparadox.com/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 12:25:36 [warn] 153#153: server name "sapphireaura.twilightparadox.com/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 12:25:36 [warn] 153#153: server name "sapphireaura.com.ng/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 12:25:36 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 12:25:36 [warn] 153#153: server name "sapphireaura.twilightparadox.com/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 12:26:55 [warn] 153#153: server name "sapphireaura.twilightparadox.com/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 12:26:55 [warn] 153#153: server name "sapphireaura.twilightparadox.com/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 12:26:55 [warn] 153#153: server name "sapphireaura.com.ng/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 12:26:55 [warn] 153#153: server name "sapphireaura.twilightparadox.com/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 12:27:36 [warn] 153#153: server name "sapphireaura.twilightparadox.com/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 12:27:36 [warn] 153#153: server name "sapphireaura.twilightparadox.com/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 12:27:36 [warn] 153#153: server name "sapphireaura.twilightparadox.com/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 12:27:36 [warn] 153#153: server name "sapphireaura.twilightparadox.com/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 12:28:19 [warn] 153#153: server name "sapphireaura.twilightparadox.com/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 12:28:19 [warn] 153#153: server name "sapphireaura.twilightparadox.com/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 12:28:19 [warn] 153#153: server name "sapphireaura.twilightparadox.com/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 12:28:19 [warn] 153#153: server name "sapphireaura.twilightparadox.com/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 12:28:41 [warn] 153#153: server name "sapphireaura.twilightparadox.com/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 12:28:41 [warn] 153#153: server name "sapphireaura.twilightparadox.com/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 12:28:41 [warn] 153#153: server name "sapphireaura.twilightparadox.com/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 12:28:41 [warn] 153#153: server name "sapphireaura.twilightparadox.com/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 12:30:05 [warn] 153#153: server name "sapphireaura.twilightparadox.com/" has suspicious symbols in /data/nginx/proxy_host/2.conf:23
+2024/07/10 12:30:05 [warn] 153#153: server name "sapphireaura.twilightparadox.com/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 12:30:05 [warn] 153#153: server name "sapphireaura.twilightparadox.com/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 12:30:05 [warn] 153#153: server name "sapphireaura.twilightparadox.com/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 12:36:53 [warn] 722#722: 512 worker_connections are not enough, reusing connections
+2024/07/10 12:36:53 [alert] 722#722: *6838 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "sapphireaura.twilightparadox.com"
+2024/07/10 12:37:54 [warn] 153#153: server name "sapphireaura.twilightparadox.com/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 12:37:54 [warn] 153#153: server name "sapphireaura.twilightparadox.com/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 12:37:54 [warn] 153#153: server name "sapphireaura.twilightparadox.com/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 12:42:02 [warn] 153#153: server name "sapphireaura.twilightparadox.com/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 12:42:02 [warn] 153#153: server name "sapphireaura.twilightparadox.com/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 12:42:02 [warn] 153#153: server name "sapphireaura.twilightparadox.com/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 12:42:02 [error] 740#740: *7013 open() "/var/www/html/.git/config" failed (2: No such file or directory), client: 52.209.13.140, server: localhost-nginx-proxy-manager, request: "GET /.git/config HTTP/1.1", host: "34.207.147.191"
+2024/07/10 12:42:32 [warn] 153#153: server name "sapphireaura.twilightparadox.com/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 12:42:32 [warn] 153#153: server name "sapphireaura.twilightparadox.com/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 12:42:32 [warn] 153#153: server name "sapphireaura.twilightparadox.com/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 12:43:10 [warn] 153#153: server name "sapphireaura.twilightparadox.com/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 12:43:10 [warn] 153#153: server name "sapphireaura.twilightparadox.com/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 12:43:10 [warn] 153#153: server name "sapphireaura.twilightparadox.com/api" has suspicious symbols in /data/nginx/proxy_host/5.conf:23
+2024/07/10 12:43:36 [warn] 153#153: server name "sapphireaura.twilightparadox.com/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 12:43:36 [warn] 153#153: server name "sapphireaura.twilightparadox.com/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 12:43:48 [warn] 153#153: server name "sapphireaura.twilightparadox.com/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 12:43:48 [warn] 153#153: server name "sapphireaura.twilightparadox.com/redocs" has suspicious symbols in /data/nginx/proxy_host/4.conf:23
+2024/07/10 12:43:52 [warn] 153#153: server name "sapphireaura.twilightparadox.com/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 12:44:04 [warn] 153#153: server name "sapphireaura.twilightparadox.com/docs" has suspicious symbols in /data/nginx/proxy_host/3.conf:23
+2024/07/10 12:52:18 [error] 184#184: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 197.211.58.130, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "34.207.147.191:8090", referrer: "http://34.207.147.191:8090/nginx/proxy"
+2024/07/10 13:15:08 [error] 185#185: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 197.211.58.130, server: nginxproxymanager, request: "GET /api/ HTTP/1.1", upstream: "http://127.0.0.1:3000/", host: "34.207.147.191:8090", referrer: "http://34.207.147.191:8090/nginx/proxy"
+2024/07/10 13:29:06 [error] 185#185: *229 open() "/var/www/html/.env" failed (2: No such file or directory), client: 185.254.196.173, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "34.207.147.191"
+2024/07/10 13:43:09 [error] 184#184: *303 open() "/var/www/html/.env" failed (2: No such file or directory), client: 185.254.196.173, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "34.207.147.191"
+2024/07/10 13:47:10 [error] 203#203: *384 open() "/var/www/html/.env" failed (2: No such file or directory), client: 78.153.140.179, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "34.207.147.191"
+2024/07/10 14:18:35 [alert] 214#214: *1783 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "34.207.147.191"
+2024/07/10 14:45:52 [error] 248#248: *542 open() "/var/www/html/.env" failed (2: No such file or directory), client: 185.254.196.173, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "34.207.147.191"
+2024/07/10 15:55:19 [warn] 289#289: 512 worker_connections are not enough, reusing connections
+2024/07/10 15:55:19 [alert] 289#289: *2339 512 worker_connections are not enough while connecting to upstream, client: 127.0.0.1, server: localhost-nginx-proxy-manager, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:80/favicon.ico", host: "34.207.147.191", referrer: "http://34.207.147.191/"
+2024/07/10 16:16:06 [error] 289#289: *3054 open() "/var/www/html/.env" failed (2: No such file or directory), client: 185.254.196.173, server: localhost-nginx-proxy-manager, request: "GET /.env HTTP/1.1", host: "34.207.147.191"
