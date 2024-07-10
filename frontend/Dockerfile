@@ -1,24 +1,20 @@
-FROM node:22.4.0-alpine
+# Use the latest official Node.js image as a base
+FROM node:latest
 
-
-# Set the working directory inside the container
+# Set the working directory
 WORKDIR /app
 
-# Copy the package.json and package-lock.json files to the working directory
-COPY package*.json ./
+# Copy the application files
+COPY . .
+
+# arg command
+ARG VITE_API_URL=${VITE_API_URL}
 
 # Install dependencies
 RUN npm install
 
-# Set the environmental variable
-ARG VITE_API_URL
-ENV VITE_API_URL=$VITE_API_URL
-
-# Copy the rest of the application files to the working directory
-COPY . .
-
-# Expose the port the app runs on
+# Expose the port the development server runs on
 EXPOSE 5173
 
-# Start the development server
-CMD ["npm", "run", "dev"]
+# Run the development server
+CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
