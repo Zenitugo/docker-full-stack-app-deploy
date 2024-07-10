@@ -227,4 +227,7 @@ location /redoc {
 ```
 ## Configure Routing
 
+Configure your routing to pass request from your front end on the nginx proxy server to `/docs`, `/redoc` and `/api` in the backend 
 
+
+**To understand ore of this in details, read this article** [HASHNODE](https://dhebbydavid.hashnode.dev/deploying-a-three-tier-application-in-docker-containers)
