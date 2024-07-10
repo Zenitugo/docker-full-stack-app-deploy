@@ -47,16 +47,16 @@ services:
       - ./frontend/.env
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.frontend.rule=Host(`sapphireaura.com.ng`) || Host(`www.sapphireaura.com.ng`)"
+      - "traefik.http.routers.frontend.rule=Host(`sapphireaura.com.ng`) || Host(`www.sapphireaura.com.ng`) && PathPrefix(`/`)"
       - "traefik.http.routers.frontend.entrypoints=websecure"
       - "traefik.http.routers.frontend.tls=true"
       - "traefik.http.routers.frontend.tls.certresolver=myresolver"
-      - "traefik.http.routers.frontend.middlewares=www-redirect@docker"
-      - "traefik.http.routers.frontend-local.rule=Host(`localhost`)"
+      - "traefik.http.routers.frontend.middlewares=https-redirect@docker,www-redirect@docker"
+      - "traefik.http.routers.frontend-local.rule=Host(`localhost`) && PathPrefix(`/`)"
       - "traefik.http.routers.frontend-local.entrypoints=web"
       - "traefik.http.services.frontend.loadbalancer.server.port=5173"
       - "traefik.http.middlewares.api-proxy.forwardauth.address=http://frontend:5173/api-proxy"
-      - "traefik.http.routers.frontend-http.rule=Host(`sapphireaura.com.ng`) || Host(`www.sapphireaura.com.ng`)"
+      - "traefik.http.routers.frontend-http.rule=Host(`sapphireaura.com.ng`) || Host(`www.sapphireaura.com.ng`) && PathPrefix(`/`)"
       - "traefik.http.routers.frontend-http.entrypoints=web"
       - "traefik.http.routers.frontend-http.middlewares=https-redirect@docker"
     depends_on:
@@ -70,14 +70,14 @@ services:
     container_name: DB-manager
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.adminer-domain.rule=Host(`db.sapphireaura.com.ng`)"
+      - "traefik.http.routers.adminer-domain.rule=Host(`db.sapphireaura.com.ng`) && PathPrefix(`/adminer`)"
       - "traefik.http.routers.adminer-domain.entrypoints=websecure"
       - "traefik.http.routers.adminer-domain.tls=true"
       - "traefik.http.routers.adminer-domain.tls.certresolver=myresolver"
-      - "traefik.http.routers.adminer-domain-http.rule=Host(`db.sapphireaura.com.ng`)"
+      - "traefik.http.routers.adminer-domain-http.rule=Host(`db.sapphireaura.com.ng`) && PathPrefix(`/adminer`)"
       - "traefik.http.routers.adminer-domain-http.entrypoints=web"
       - "traefik.http.routers.adminer-domain-http.middlewares=https-redirect@docker"
-      - "traefik.http.routers.adminer-local.rule=Host(`db.localhost`)"
+      - "traefik.http.routers.adminer-local.rule=Host(`db.localhost`) && PathPrefix(`/adminer`)"
       - "traefik.http.routers.adminer-local.entrypoints=web"
       - "traefik.http.services.adminer.loadbalancer.server.port=8080"
     ports:
@@ -119,6 +119,9 @@ services:
       - "traefik.http.routers.traefik-domain-secure.tls=true"
       - "traefik.http.routers.traefik-domain-secure.tls.certresolver=myresolver"
       - "traefik.http.routers.traefik-domain-secure.service=api@internal"
+      - "traefik.http.routers.traefik-dashboard.rule=Host(`traefik.sapphireaura.com.ng`) && PathPrefix(`/dashboard`)"
+      - "traefik.http.routers.traefik-dashboard.entrypoints=traefik"
+      - "traefik.http.routers.traefik-dashboard.service=api@internal"
       - "traefik.http.routers.traefik-local.rule=Host(`proxy.localhost`)"
       - "traefik.http.routers.traefik-local.service=api@internal"
       - "traefik.http.routers.traefik-local.entrypoints=web"
