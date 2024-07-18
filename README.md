@@ -226,6 +226,7 @@ location /redoc {
 
 ```
 ## Configure Routing
+To understand
 
 Configure your routing to pass request from your front end on the nginx proxy server to `/docs`, `/redoc` and `/api` in the backend 
 
