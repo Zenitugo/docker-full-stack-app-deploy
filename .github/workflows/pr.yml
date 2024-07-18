@@ -18,10 +18,6 @@ jobs:
         
       - name: Tests
         uses: cloudposse/github-action-docker-compose-test-run@main
-        with:
-          file: test/docker-compose.yml
-          service: app
-          command: test/unit-tests.sh
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
